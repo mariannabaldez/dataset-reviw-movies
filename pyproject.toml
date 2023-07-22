@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dataset-reviw-movies"
+version = "0.1.0"
+description = ""
+authors = ["mariannabaldez <mariannabaldez@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11"
+py4j = "^0.10.9.7"
+pyspark = "^3.4.1"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
